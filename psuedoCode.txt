@@ -1,6 +1,8 @@
 JS
-    Create variables for moods(mad,sad,happy,excited,nervous,hungry,tired)
-
+    Create variables for moods
+    Capture the click of the mood
+    Add logic to have mood change background
+    Assign Event Listener
 
 HTML
     Create HTML buttons for moods
