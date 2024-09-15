@@ -1,0 +1,13 @@
+JS
+    Create variables for moods(mad,sad,happy,excited,nervous,hungry,tired)
+
+
+HTML
+    Create HTML buttons for moods
+    Create section that lists current mood 
+    Create div for message displayed based on mood
+
+CSS 
+    Implement CSS 
+    focus on using rem, em, and px as main units
+    
