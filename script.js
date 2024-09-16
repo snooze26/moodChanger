@@ -17,7 +17,7 @@ const message = document.querySelector("#message");
 
 //functions
 function moodSelector(mood) {
-    switch(mood.toLowerCase()){
+    switch(mood){
         case "depressed":
             container.style.background = "radial-gradient(circle, #212136, #808080, #181616)";            
             message.textContent = "Things will get better just try to stay as strong as you can";
