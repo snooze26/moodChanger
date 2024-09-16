@@ -7,13 +7,23 @@
   * {
     margin: 0;
     font-size: 16px;
+
   }
   
 
   body {
+    font-family: Tahoma, sans-serif;
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
-  }
+    display: grid;
+    text-align: center;
+    /* change size to background image
+    background-image: url("pictures/tim-mossholder-vOxqufihW1k-unsplash.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    */
+    }
   
   img, picture, video, canvas, svg {
     display: block;
@@ -28,7 +38,12 @@
     overflow-wrap: break-word;
   }
 
+  h1#header {
+    font-size: 3rem;
+    margin: 25px;
+}
+
   #root, #__next {
     isolation: isolate;
   }
-  
+
