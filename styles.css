@@ -61,4 +61,19 @@ button {
   width: 10rem;
   margin: 15px 10px;
   font-size: 1.5rem;
+  background: rgb(0 0 0 / 0.1
+  );
+}
+
+h1#header {
+  font-size: 3rem;
+  margin: 25px;
+}
+
+div#msgContainter {
+  margin-bottom: 30px;
+}
+
+p#message {
+  font-size: 2rem;
 }

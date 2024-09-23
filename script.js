@@ -19,7 +19,7 @@ const message = document.querySelector("#message");
 function moodSelector(mood) {
     switch(mood){
         case "depressed":
-            document.body.style.background = "radial-gradient(circle, #212136, #808080, #181616)";            
+            document.body.style.background = "radial-gradient(circle, #212136, #181616, #808080)";            
             message.textContent = "Things will get better just try to stay as strong as you can";
             message.style.color = "#ffffff";
             break;
@@ -49,7 +49,7 @@ function moodSelector(mood) {
             break;
 
         case "mad":
-            document.body.style.background = "radial-gradient(circle, #b30000, #000000, #ff1a1a)";            
+            document.body.style.background = "radial-gradient(circle, #b30000, #ff1a1a, #000000)";            
             message.textContent = "Scream or beat up a pillow <3";
             message.style.color = "#ffffff";
             break;
