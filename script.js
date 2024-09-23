@@ -21,13 +21,13 @@ function moodSelector(mood) {
         case "depressed":
             document.body.style.background = "radial-gradient(circle, #212136, #808080, #181616)";            
             message.textContent = "Things will get better just try to stay as strong as you can";
-            message.style.color = "#ede3e3";
+            message.style.color = "#ffffff";
             break;
 
         case "excited":
             document.body.style.background = "radial-gradient(circle, #ff0000, #cc9900, #ffda47)";            
             message.textContent = "Things are looking good!!!";
-            message.style.color = "#ff4000";
+            message.style.color = "#ffffff";
             break;  
 
         case "hangry":
@@ -39,7 +39,7 @@ function moodSelector(mood) {
         case "happy":
             document.body.style.background = "radial-gradient(circle, #33cccc, #ffffff, #ff99cc)";            
             message.textContent = "Lets have a good time! We only live so long.";
-            message.style.color = "#00b3b3";
+            message.style.color = "#706f6f";
             break;
 
         case "hungry":
@@ -57,7 +57,7 @@ function moodSelector(mood) {
         case "motivated":
             document.body.style.background = "radial-gradient(circle, #99ffff, #99ff99, #ccffff)";            
             message.textContent = "Let's get to it! Don't be the thing that holds you back!!";
-            message.style.color = "green";
+            message.style.color = "706f6f";
             break;
             
         case "nervous":
