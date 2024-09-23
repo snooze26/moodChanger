@@ -12,4 +12,9 @@ HTML
 CSS 
     Implement CSS 
     focus on using rem, em, and px as main units
-    
+     
+
+TODO
+    Add "You are: {instert emotion}" to output message
+    New styling for text (download a font maybe?) H1, button font, output message font 
+    Add more styling to buttons 
