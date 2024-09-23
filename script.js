@@ -68,7 +68,7 @@ function moodSelector(mood) {
 
         case "sad":
             document.body.style.background = "radial-gradient(circle, #00264d, #404040)";            
-            message.textContent = "Things will get better. Try to stay as strong as you can. Take your time to feel your emotions";
+            message.textContent = "Things will get better. Try to stay as strong as you can.";
             message.style.color = "#ffffff";
             break;
 
