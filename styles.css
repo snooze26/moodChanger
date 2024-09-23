@@ -50,9 +50,15 @@
 
   div#container {
     display: flex;
-    height: 50vh;
+    height: 80vh;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
+button {
+  height: 10rem;
+  width: 10rem;
+  margin: 15px 10px;
+  font-size: 1.5rem;
+}

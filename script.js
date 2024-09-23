@@ -57,7 +57,7 @@ function moodSelector(mood) {
         case "motivated":
             document.body.style.background = "radial-gradient(circle, #99ffff, #99ff99, #ccffff)";            
             message.textContent = "Let's get to it! Don't be the thing that holds you back!!";
-            message.style.color = "706f6f";
+            message.style.color = "#706f6f";
             break;
             
         case "nervous":
