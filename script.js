@@ -105,14 +105,21 @@ function moodSelector(mood) {
 
 }
 
-
-
 function changeAllBtnTextColor(color){
     buttons.forEach(button => {
         button.style.color = color;
     });
 }
+
+function resetMessage(){
+    message.textContent = "";
+}
+
+
 //event listeners 
+
+resetButton.addEventListener("click", resetMessage);
+
 depressed.addEventListener("click", () => {
     moodSelector("depressed");
     changeAllBtnTextColor(grey);  
