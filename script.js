@@ -9,6 +9,7 @@ let motivated = document.querySelector("#motivated-Btn");
 let nervous = document.querySelector("#nervous-Btn");
 let sad = document.querySelector("#sad-Btn");
 let tired = document.querySelector("#tired-Btn");
+let resetButton = document.querySelector('input[type="reset"]');
 const buttons = Array.from(document.querySelectorAll("#depressed-Btn, #excited-Btn, #hangry-Btn, #happy-Btn, #hungry-Btn, #mad-Btn, #motivated-Btn, #nervous-Btn, #sad-Btn, #tired-Btn"));
 
 const container = document.querySelector("#container");

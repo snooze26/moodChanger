@@ -64,6 +64,40 @@ button {
   );
 }
 
+
+button:hover {
+  background-color: rgb(0 0 0 / 0.3);
+  border: 4px dashed white;
+  border-radius: 10%;
+  transition: all 0.3s ease;
+
+}
+
+button:focus {
+  background: rgb(0 0 0 / 0.5);
+  color: white;
+  border-radius: 10%;
+  border: 4px dashed white;
+
+}
+
+input[type="reset"] {
+  border-radius: 10%;
+  font-size: 1.5em;
+  width: 150px;
+  height: 100px;
+  background-color: red;
+  opacity: 1;
+  transition: all 0.5s ease;
+}
+
+input[type="reset"]:hover {
+  border-radius: 10%;
+  background: rgb(0 0 0 / 0.3);
+  border: 4px dashed white;
+
+}
+
 h1#header {
   font-size: 3rem;
   margin-bottom: 0;
