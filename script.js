@@ -113,6 +113,7 @@ function changeAllBtnTextColor(color){
 
 function resetMessage(){
     message.textContent = "";
+    document.body.style.background = "rgb(0 0 0 / 0.5)";
 }
 
 
